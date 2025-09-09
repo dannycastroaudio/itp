@@ -13,5 +13,6 @@ Toodles
 
 `code code code`
 
-
+![alt text][chicken]
+![chicken]:
 
