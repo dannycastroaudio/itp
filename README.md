@@ -13,6 +13,5 @@ Toodles
 
 `code code code`
 
-![alt text][chicken]
-![chicken]: https://github.com/dannycastroaudio/itp/blob/main/img/chicken%20got%20its%20reasons.jpeg
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/img/chicken%20got%20its%20reasons.jpeg)
 
