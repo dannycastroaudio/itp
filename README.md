@@ -1,5 +1,5 @@
 # itp
-#BEEP BOOP BEEP!!!
+# BEEP BOOP BEEP!!!
 
 Repository for intro to programming at Berklee (LMSC-261-001)
 
