@@ -36,7 +36,7 @@ That's all you would say to me
 As I crapped one out" -o aiff 
 ```
 
-Following this, I checked my notes and the class [github](https://github.com/rdwrome/261fa25) and saw I had name it using this code
+Following this, I checked my notes and the class [github](https://github.com/rdwrome/261fa25) and saw I could name it using this code
 
 ```
 -o name.aiff
