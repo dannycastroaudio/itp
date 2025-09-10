@@ -19,7 +19,7 @@ That's all you would say to me
 As I crapped one out" -o haiku.aiff 
 ```
 
-6. Took a screenshot of code 
+6. Took a screenshot of code and looked at the image instructions in the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
 7. Uploaded screenshot to folder called img inside the haiku homework folder
 8. Copied image link from github and aded to this README.md file
 
