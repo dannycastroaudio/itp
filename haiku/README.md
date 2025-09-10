@@ -17,6 +17,11 @@ say ""Your haiku are shit"
 That's all you would say to me
 As I crapped one out" -o haiku.aiff 
 ```
+
+6. Took a screenshot of code 
+7. uploaded Screenshot to folder called img inside the haiky homework folder
+8. Copied image link from github and aded to this README.md file
+
 ### Debugging:
 
 I forgot how to name the file at first, so my first attempt ended up being called aiff.aiff
@@ -39,5 +44,7 @@ With my code now fixed (aka adding the name.aiff), I deleted the aiff.aiff file.
 
 
 ### Screenshot of my code
+
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/haiku/img/haiku-code-screenshot.png)
 
 
