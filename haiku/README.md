@@ -13,7 +13,8 @@
 5. Satisfied, I saved my haiku using the following code:
 
 ``` 
-say ""Your haiku are shit"
+say "
+"Your haiku are shit"
 That's all you would say to me
 As I crapped one out" -o haiku.aiff 
 ```
@@ -29,7 +30,8 @@ I forgot how to name the file at first, so my first attempt ended up being calle
 This was the code I had entered
 
 ``` 
-say ""Your haiku are shit"
+say "
+"Your haiku are shit"
 That's all you would say to me
 As I crapped one out" -o aiff 
 ```
