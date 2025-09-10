@@ -20,7 +20,7 @@ As I crapped one out" -o haiku.aiff
 ```
 
 6. Took a screenshot of code 
-7. uploaded Screenshot to folder called img inside the haiky homework folder
+7. Uploaded screenshot to folder called img inside the haiku homework folder
 8. Copied image link from github and aded to this README.md file
 
 ### Debugging:
