@@ -1,8 +1,10 @@
 #JavaScript Reading
 ##Danny Castro, LMSC-261-001
 
+---
 
-###Chapter 1 
+
+###Chapter 1: Values, Types, and Operators
 
 **What I already knew:**
 
@@ -28,7 +30,7 @@ I already knew about the basic data types described in this chapter. They have r
     
 	  `// → true`
 	
-	*(this is actually true because in Steven Universe Garnet is actually a fusion between Ruby and Sapphire. Garnet is the personification of their eternal love. But I digress)*
+	*(this is actually true because in [Steven Universe](https://en.wikipedia.org/wiki/Steven_Universe), [Garnet](https://steven-universe.fandom.com/wiki/Garnet) is actually a [fusion](https://steven-universe.fandom.com/wiki/Fusion_Gems) between [Ruby](https://steven-universe.fandom.com/wiki/Ruby) and [Sapphire](https://steven-universe.fandom.com/wiki/Sapphire). Garnet is the personification of their eternal love. But I digress)*
 	
 * Undefined/Empty values
   * `null`
@@ -40,7 +42,7 @@ I loved how much information inn this text I didn't know about. This means i can
 
 The homework is asking me for one thing, A difficult task. 
 
-I had no idea how many operators there are in JavaScript. Sure, I've used some like `==` and `!=`, but there are so many!!! 
+I had no idea how many operators there are in JavaScript. Sure, I've used some like `=`, `==` and `!=`, but there are so many!!! 
 
 * Binary ops for arithmetic
   * `+`: addition
@@ -72,8 +74,44 @@ I had no idea how many operators there are in JavaScript. Sure, I've used some l
 
 Also, the existence of unary, binary, and ternary operators. I kind of understand what they all mean compared to one another now. 
 
+---
 
-###Chapter 2
+
+###Chapter 2: Program Structure
+
+**What I already knew:**
+
+I was already very familiar with the `if` `else` statements, they are used all the time in C#, which is the language im most comfortable with. I also knew what a a binding was, but I knw them by the name of variables. Same difference. It is still weird seeing `let` instead of `var`. 
+
+`While` and `do` were also familiar, although they tend to trip me up with the way the statements are formatted. 
+
+**What I did not know:**
+
+There were a bunch of statements I didnt know existed, or if I did, I just didnt know how they worked. For instance, `for` was a complete unknown. Even the way the syntax works is tricky for me. Excluding `while` and `do` forces me to think more, even if theyre doing the same thing/yield the exact same results. 
+
+Finally, the statments `switch` and `case` I had read about somewhere on Stack OverFlow, but how they operated was a complete mystery. Silly, seeing as, to me, they're the most straight forward. 
+
+---
+
+###Chapter 3: Functions
+
+I felt rather stupid reading this chapter. Even with breaks, it was a lot of information and it eventually started tasting like a weird leftover gruel. Like a grey rice porridge thats been left on the counter for an indefinite amount of time... 
+
+*shivers*
+
+**What I already knew**
+
+I knew about scopes already, how they're local and global, and how they affect the code in their respective environments.
+Moreover, I knew the scope distinctions between `let`, `const`, and `var`. Although ultimately their scope depends on where exactly they're declared, I stick to `var` for global bindings, and use `let` and `const` locally (inside whatever environment they are located).
+
+**What I did not know**
+
+I didnt know functions could be expressed in so many different ways. The shorthand notation (declaration notation) for functions and recursions is all very new to me. In fact, I dont fully get it yet. my brain gets mad when I try to read recursive code, and the way the textbook shows growing functions was a big [huh](https://www.youtube.com/shorts/mQ-9NPtsh0c) to me. 
+
+So, in summary, most function-related information in this chapter left me baffled. Im still not quite sure I understand functions as values. 
+
+
+
 
 
 
