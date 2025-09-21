@@ -1,10 +1,11 @@
-#JavaScript Reading
-##Danny Castro, LMSC-261-001
+# JavaScript Reading
+
+## Danny Castro, LMSC-261-001
 
 ---
 
 
-###Chapter 1: Values, Types, and Operators
+### Chapter 1: Values, Types, and Operators
 
 **What I already knew:**
 
@@ -77,7 +78,7 @@ Also, the existence of unary, binary, and ternary operators. I kind of understan
 ---
 
 
-###Chapter 2: Program Structure
+### Chapter 2: Program Structure
 
 **What I already knew:**
 
@@ -93,7 +94,7 @@ Finally, the statments `switch` and `case` I had read about somewhere on Stack O
 
 ---
 
-###Chapter 3: Functions
+### Chapter 3: Functions
 
 I felt rather stupid reading this chapter. Even with breaks, it was a lot of information and it eventually started tasting like a weird leftover gruel. Like a grey rice porridge thats been left on the counter for an indefinite amount of time... 
 
