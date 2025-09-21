@@ -31,7 +31,7 @@ I already knew about the basic data types described in this chapter. They have r
     
 	  `// → true`
 	
-	*(this is actually true because in [Steven Universe](https://en.wikipedia.org/wiki/Steven_Universe), [Garnet](https://steven-universe.fandom.com/wiki/Garnet) is actually a [fusion](https://steven-universe.fandom.com/wiki/Fusion_Gems) between [Ruby](https://steven-universe.fandom.com/wiki/Ruby) and [Sapphire](https://steven-universe.fandom.com/wiki/Sapphire). Garnet is the personification of their eternal love. But I digress)*
+	*(this is technically true because in [Steven Universe](https://en.wikipedia.org/wiki/Steven_Universe), [Garnet](https://steven-universe.fandom.com/wiki/Garnet) is actually a [fusion](https://steven-universe.fandom.com/wiki/Fusion_Gems) between [Ruby](https://steven-universe.fandom.com/wiki/Ruby) and [Sapphire](https://steven-universe.fandom.com/wiki/Sapphire). Garnet is the personification of their eternal love. But I digress)*
 	
 * Undefined/Empty values
   * `null`
