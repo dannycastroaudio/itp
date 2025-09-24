@@ -35,7 +35,8 @@ I got an error.
 Another flop, but not with the code! my spelling! The puter does not tolerante imperfections. 
 
 6. At that point I decided to safeguard myself from my possibly undiagnosed mild dyslexia, and renamed the bindings to `F` and `C`. This was the final product:
-```
+```javascript
+
 let F = 99;
 let C = ((F - 32)*5/9);
 console.log(C);
