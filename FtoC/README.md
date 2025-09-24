@@ -18,8 +18,7 @@ let Fahrenheit = 99;
 let Celsius = ((Fahrenheit - 32)5/9);
 console.log(Celsius);
 ```  
-I then tested that on the online [sandbox we used in class](https://eloquentjavascript.net/code/).
-...  
+I then tested that on the online [sandbox we used in class](https://eloquentjavascript.net/code/).   
 It didnt work. Duh. The error I received was this:  
 **SyntaxError: Unexpected number**  
 Back to the workbench!  
