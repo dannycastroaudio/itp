@@ -1,8 +1,9 @@
-#F to C 
-##Danny Castro, LMSC-261-001
+# F to C 
+
+## Danny Castro, LMSC-261-001
 
 ---
-###Coding process and debugging
+### Coding process and debugging
 1. For this assignment, I started out by studying the [code-along document](https://github.com/rdwrome/261fa25/blob/main/03Operators%26Bindings/codealong.js) we worked on during class. Particularly the section about finding the area based on pi and radius bindings. The homework is clearly an expression, so it made sense to study a different but similar expression.
 2. Having done this, I looked at the homework instructions. We were given a starting value (99° Fahrenheit), 2 variables (f and c), and an equation (Celsius = (Fahrenheit-32)5/9). To me that clearly meant the following:
 
