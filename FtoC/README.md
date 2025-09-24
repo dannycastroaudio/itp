@@ -13,7 +13,8 @@
 	
 	* If the code knows what we mean by F and C, then you could just plug in a value at the `F` binding, and ask the console with `console.log` to print out the conversion of the `C` binding.
 3. cool. I wrote this code based on those ascertations.
-```
+```javascript
+
 let Fahrenheit = 99;  
 let Celsius = ((Fahrenheit - 32)5/9);
 console.log(Celsius);
@@ -25,7 +26,8 @@ Back to the workbench!
 
 4. It just so happened that at this moment, our office hour started. You looked at my code and told me line 2 was "too human". To me, a human, the lack of space between the parenthesis and the division clearly stated a multiplication. I pondered.
 5. My ponderings led me conclude the usual: Puter stoopid. It wont know I need it to multiply if I dont give it a multiplication operator (`*`). I rewrote my code like this:
-```
+```javascript
+
 let Fahrenheit = 99;
 let Celsius = ((Fahrenheit - 32)*5/9);
 console.log(Celsisus);
