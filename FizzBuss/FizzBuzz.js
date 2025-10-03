@@ -1,3 +1,5 @@
+//FINAL FIZZBUZZ CODE!!! IT WORKS I PROMISE!!!
+
 for (let i = 1; i <= 100; i++)
 {
 	if (i % 3 === 0 && i % 5 === 0)	
@@ -14,7 +16,7 @@ for (let i = 1; i <= 100; i++)
 	}
 	else 
 	{
-		console.log(i);
+		console.log(i);Z
 	}
 }
 
