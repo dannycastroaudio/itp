@@ -131,7 +131,11 @@ for (let i = 1; i<=100; i++)
 }
 ````
 
-now that completely broke my code, lmao. i dont even know what happened. I added the `else` at the end before console because I remembered that typical syntax for `if` statements were followed by an `else`. I went back to the [code-along](https://github.com/rdwrome/261fa25/blob/main/04ControlFlow/codealong.js) doc to double check, and on line 22, I saw that indeed, the `if` was followed by an `else`. Thinking back, I dont know why I put it right before `console.log` instead of making it a statment and opening brackets like so: `else {console.log(1;)}`. The number one of being crazy is not knowing you're crazy. I suspect something similar was occuring within me. I digress.
+Now that completely broke my code, lmao. i dont even know what happened. I added the `else` at the end before console because I remembered that typical syntax for `if` statements were followed by an `else`. 
+
+I went back to the [code-along](https://github.com/rdwrome/261fa25/blob/main/04ControlFlow/codealong.js) doc to double check, and on line 22, I saw that indeed, the `if` was followed by an `else`. Thinking back, I dont know why I put it right before `console.log` instead of making it a statment and opening brackets like so: `else {console.log(1;)}`. 
+
+The number one of being crazy is not knowing you're crazy. I suspect something similar was occuring within me. I digress.
 
 ---
 
@@ -175,7 +179,7 @@ for (let i = 1; i <= 100; i++)
 	}
 	else if (i % 5===0)
 	{
-		console.log("Buzz");
+		console.log("Buzz"); 
 	}
 	else if (i % 3 ===0 && 1%5===0)
 	{
@@ -204,7 +208,7 @@ for (let i = 1; i <= 100; i++)
 	{
 		console.log("Buzz");
 	}
-	else if (i % 3 ===0 && 1%5===0)
+	else if (i % 3 ===0 && i % 5===0) 
 	{
 		console.log("FizzBuzz");
 	}
@@ -214,9 +218,17 @@ for (let i = 1; i <= 100; i++)
 
 TRASH. Well not actually, but it was still ignoring the "FizzBuzz". Anyway, I took a nap.
 
+---
+
 ###Attempt #7
 
-ONE FINAL STROKE OF GENIUS HIT ME LIKE A TRUCK AND WOKE ME UP FROM MY NAP!!! **THE CONTROL FLOW** "Once code is effective it stops". Something like that. My code was replacing the numbers with "Fizz" and "Buzz" first, but by the time it reached my `else if (i % 3 ===0 && 1%5===0){console.log("FizzBuzz");}` statement, all possible numbers had already been replaced by "Fizz" or "Buzz", and there were no other numbers left that were multiples of both numbers. Why? cause they werent numbers anymore, they were strings. So lets make my code check for numbers that are multiples to 3 AND 5 first and THEN check for numbers who are either numltiples of 3 **or** 5.
+ONE FINAL STROKE OF GENIUS HIT ME LIKE A TRUCK AND WOKE ME UP FROM MY NAP!!! **THE CONTROL FLOW** 
+
+"Once code is effective it stops". You had said to me something like that. 
+
+My code was replacing the numbers with "Fizz" and "Buzz" first, but by the time it reached my `else if (i % 3 ===0 && 1%5===0){console.log("FizzBuzz");}` statement, all possible numbers had already been replaced by "Fizz" or "Buzz", and there were no other numbers left that were multiples of both numbers.
+
+Why? Cause they werent numbers anymore, they were strings. So lets make my code check for numbers that are multiples to 3 AND 5 first and THEN check for numbers who are either numltiples of 3 **or** 5.
 
 ````javascript
 for (let i = 1; i <= 100; i++)
@@ -239,8 +251,11 @@ for (let i = 1; i <= 100; i++)
 	}
 }
 ```
+
 **WITNESS ME**
-yup it workeddddd!!! I tested it one more time on the Eloquent Javascript online console
+
+yup it workeddddd!!! As evidenced by the success depicted here:
+
 
 
 
