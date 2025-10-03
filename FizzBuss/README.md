@@ -1,4 +1,13 @@
-First attempt at code. Looking at the instructions, I figured we would have a `for' loop statement, as we would be counting from 0 to 100. hundred AND doing some identifying simultaneously. 
+# FizzBuzz Homwork
+##Danny Castro, LMSC-261-001
+### Debug Journal
+
+---
+
+
+#### Attempt #1
+
+First attempt at code. Looking at the instructions, I figured we would have a `for` loop statement, as we would be counting from 0 to 100 **AND** doing some identifying simultaneously. I quickly looked at my notes for what we'd done in class, and this is what I came up with. 
 
 ````javascript
 for (let i = 1; i<=100; i++)
@@ -15,7 +24,14 @@ for (let i = 1; i<=100; i++)
 }
 ````
 
-did not work. it was printing "Fizz" and "Buzz" before every integer. I used the modulus sign (`%`) to signify division because thats how we did it in the [[code-along](https://github.com/rdwrome/261fa25/blob/main/04ControlFlow/codealong.js)](https://github.com/rdwrome/261fa25/blob/main/04ControlFlow/codealong.js#L38) during class, but I forgot to indicate that the remainder had to be 0 so that I would be actually be telling the code to divide/find the multiple. As a result it was finding remainders all over the place. I reworked it and this was my second attempt.
+Did not work. it was printing "Fizz" and "Buzz" before every integer. I used the modulus sign (`%`) to signify division because thats how we did it in the [[code-along](https://github.com/rdwrome/261fa25/blob/main/04ControlFlow/codealong.js)](https://github.com/rdwrome/261fa25/blob/main/04ControlFlow/codealong.js#L38) during class, but I forgot to indicate that the remainder had to be 0 so that I would be actually be telling the code to divide/find the multiple. As a result it was finding remainders all over the place. 
+
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuss/img/1st%20attempt%20code.png)
+
+
+
+I reworked it and this was my second attempt.
+
 
 ````javascript
 for (let i = 1; i<=100; i++)
