@@ -47,7 +47,7 @@ I used the modulus sign (`%`) to signify division because thats how we did it in
 
 Below is what the [code sandbox](https://eloquentjavascript.net/code/) showed when it executed the code:
 
-![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuss/img/code%20attempt%201.png)
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuzz/img/code%20attempt%201.png)
 
 ---
 
@@ -77,7 +77,7 @@ It was at this point I remembered that we also had to include code that made eve
 
 Back to the workbench, I rewrote the code to test if, even without replacing the numbers, it would insert `"FizzBuzz"` before numbers divisible by 3 and 5. 
 
-![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuss/img/code%20attempt%202.png)
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuzz/img/code%20attempt%202.png)
 
 
 ---
@@ -108,7 +108,7 @@ for (let i = 1; i<=100; i++)
 
 ok so. yea. it was able to execute the the `if` statements, but wasnt printing any "FizzBuzz" string. Its wasnt replacing the numbers with the words like I wanted. I asked you, and you told me it had something to do with the order of operations. This is what the code sandbox executed:
 
-![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuss/img/code%20attempt%203.png)
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuzz/img/code%20attempt%203.png)
 
 
 My first thought was that something was in the wrong order? And a comment you made regarding "whats the most complicated operation" made me think that maybe the `if (i % 3 ===0 && 1%5===0)` had to go at the top. So I tried that.
@@ -142,7 +142,7 @@ for (let i = 1; i<=100; i++)
 
 Now that completely broke my code, lmao. i dont even know what happened. 
 
-![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuss/img/code%20attempt%204.png)
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuzz/img/code%20attempt%204.png)
 
 I added the `else` at the end before console because I remembered that typical syntax for `if` statements were followed by an `else`. 
 
@@ -181,7 +181,7 @@ for (let i = 1; i <= 100; i++)
 
 Same thing. It still wasnt doing what I wanted. I was extremely frustrated at this point and out of ideas...
 
-![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuss/img/code%20attempt%205.png)
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuzz/img/code%20attempt%205.png)
 
 What could i possibly be missing? **OBVIOUSLY THE FINAL** `else`. I can be a silly goose. One more fix:
 
@@ -206,7 +206,7 @@ for (let i = 1; i <= 100; i++)
 
 It worked! mostly... Now it was replacing the numbers, but it wasnt inserting if "FizzBuzz" in the numbers that were multiples of both 3 and 5. I hadnt noticed this back when I did attempt 3. I dont know why I thought it was working. It was ignoring that part of the code completely, and labelling things as either `"Fizz"` or `"Buzz"`, which is halfway there but meh.
 
-![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuss/img/code%20attempt%205.2.png)
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuzz/img/code%20attempt%205.2.png)
 
 ---
 
@@ -235,7 +235,7 @@ for (let i = 1; i <= 100; i++)
 
 TRASH. Well not actually, but it was still ignoring the `"FizzBuzz"`. 
 
-![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuss/img/code%20attempt%206.png)
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuzz/img/code%20attempt%206.png)
 
 Anyway, I took a nap.
 
@@ -277,7 +277,7 @@ for (let i = 1; i <= 100; i++)
 
 yup it workeddddd!!! As evidenced by the success depicted here:
 
-![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuss/img/code%20attempt%207.png)
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/FizzBuzz/img/code%20attempt%207.png)
 
 
 
