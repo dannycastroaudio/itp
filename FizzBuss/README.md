@@ -204,7 +204,7 @@ It worked! mostly... Now it was replacing the numbers, but it wasnt inserting if
 
 ---
 
-###Attempt #6
+### Attempt #6
 
 By rubbing my 2 braincells together, I spotted the typo in my code, line 119, I wrote `1%5===0` instead of `i%5===0`. So my bad. Also I fixed the final else in my code. I opened up brackets after `else` and put `console.log(i)` inside. The result? 
 
@@ -235,7 +235,7 @@ Anyway, I took a nap.
 
 ---
 
-###Attempt #7
+### Attempt #7
 
 ONE FINAL STROKE OF GENIUS HIT ME LIKE A TRUCK AND WOKE ME UP FROM MY NAP!!! **THE CONTROL FLOW** 
 
