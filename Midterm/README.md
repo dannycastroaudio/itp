@@ -1,5 +1,7 @@
-OK SO FIRST I DRAW (INSERT SKETCH HERE)
+PHASE 1
 
+OK SO FIRST I DRAW (INSERT SKETCH HERE)
+I used a graph paper on my iPad and drew the image of a monkey-looking thing. my weird monkey.
 
 THEN I TRY TO MAKE MONKEY ON CONSOLE. 
 cant firgure out arc orientation. I look up youtube how. link to video. explains how orientation is mapped out in p5
@@ -37,7 +39,9 @@ function draw() //gonna draw monkey
 }
 ````
 
-im gonna try to be more accurate to my sketch now
+At this point I had read all of the instructions, so I made sure to adjust my sketch to be scalable to a 400x400 canvas, and actually follow set x and y coordinates. Basically a 16x16 where each unit = 25 units if scaled.  I thought that was the easiest way.
+
+Now, im gonna try to be more accurate on P5.js to my new sketch 
 
 ````
 function setup() 
