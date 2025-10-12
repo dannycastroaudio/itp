@@ -144,10 +144,19 @@ function draw() //gonna draw monkey
   arc (187.5, 255, 25, 50, 0, PI); //tongue
 }
 ````
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase2.3.png)
 
 I was getting there but then I realised I wanted to add some changes so my guy would look more like a monkey than a discarded pokemon
-I wanted to get the fur mojo jojo has, and also the monkey area around the mouth that doestn typically have any fur. For this I devided the head in 2 rectangles, one that would be purely green (around the eyes), and one that would be black or dark brown (around the mouth). There would also be a green ellipses around the mouth and above the fur in order to be in agreeance with all monkey traditions. 
-So I reworked my initial sketch, accounting for the Eu de Mojo Jojo, his essence, his life energy, even. In addition to fur on the lower face, I added fur at the edges of his ears, and in a section above his eyes. I also made the top of his head a teeny tiny bit taller to account for his magnificent brain, and adjusted the shape of his eyes to look a little angrier (2 right triangles instead of equilateral triangles). I also coloured him in accordance with the ancient texts of the Powerpuff Girls.
+
+I wanted to get the fur mojo jojo has, and also the monkey area around the mouth that doestn typically have any fur. For this I devided the head in 2 rectangles, one that would be purely green (around the eyes), and one that would be black or dark brown (around the mouth). 
+
+There would also be a green ellipses around the mouth and above the fur in order to be in agreeance with all monkey traditions. 
+
+So I reworked my initial sketch, accounting for the Eu de Mojo Jojo, his essence, his life energy, even. In addition to fur on the lower face, I added fur at the edges of his ears, and in a section above his eyes. 
+
+I also made the top of his head a teeny tiny bit taller to account for his magnificent brain, and adjusted the shape of his eyes to look a little angrier (2 right triangles instead of equilateral triangles). 
+
+Finally, I coloured him in accordance with the ancient texts of the Powerpuff Girls.
 
 ````
 function setup() 
@@ -193,3 +202,4 @@ function draw() //gonna draw biblically accurate Mojo Jojo
   triangle (125, 125, 162.5, 175, 200, 125); //forehear fur patch
 }
 ````
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase2.4.png)
