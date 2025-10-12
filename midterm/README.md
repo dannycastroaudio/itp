@@ -104,9 +104,9 @@ here was the result! It doesnt look like much has changed, but I disagree. This 
 
 ![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase2.2.png)
 
-the code above is accurate in scale to my sketch, where each grid block = 25 units, and the entire canvas is 400 units total. I mapped out all the points on graph paper.
+the code above is accurate in scale to my graph drawing, where each grid block = 25 units, and the entire canvas is 400 units total. I mapped out all the points on graph paper.
 
-![alt text]()
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase1.3.jpg)
 
 ---
 ### Phase 2.3
@@ -164,6 +164,10 @@ There would also be a green ellipses around the mouth and above the fur in order
 So I reworked my initial sketch, accounting for the Eu de Mojo Jojo, his essence, his life energy, even. In addition to fur on the lower face, I added fur at the edges of his ears, and in a section above his eyes. 
 
 I also made the top of his head a teeny tiny bit taller to account for his magnificent brain, and adjusted the shape of his eyes to look a little angrier (2 right triangles instead of equilateral triangles). 
+
+I reworked my graph drawing based on these changes. Why? Well, to keep records, prepare for the worst, and be able to understand how my Mojo Jojo is being drawn on P5.js
+
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase1.4.jpg)
 
 Finally, I coloured him in accordance with the ancient texts of the Powerpuff Girls.
 
