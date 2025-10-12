@@ -7,7 +7,7 @@
 OK SO FIRST I DRAW (INSERT SKETCH HERE)
 I used a graph paper on my iPad and drew the image of a monkey-looking thing. my weird monkey.
 
-![alt text]()
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase1.1.jpg)
 
 THEN I TRY TO MAKE MONKEY ON CONSOLE. 
 
@@ -47,11 +47,19 @@ function draw() //gonna draw monkey
   arc (82, 102, 10, 25, 0, PI);
 }
 ````
+this is how my test sketch turns out:
+
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase2.1.png)
 
 ---
 ### Phase 1.2
 
-At this point I had read all of the instructions, so I made sure to adjust my sketch to be scalable to a 400x400 canvas, and actually follow set x and y coordinates. Basically a 16x16 where each unit = 25 units if scaled.  I thought that was the easiest way.
+At this point I had read all of the instructions, so I made sure to adjust my sketch to be scalable to a 400x400 canvas, and actually follow set x and y coordinates. Basically a 16x16 where each unit = 25 units if scaled. I thought that was the easiest way.
+
+You can see how much sense it makes now. Adjusting dimensions/making changes will be generally easier cause now I follow precise numbers.
+
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase2.2.png)
+
 
 ---
 ### Phase 2.2
@@ -88,8 +96,13 @@ function draw() //gonna draw monkey
   arc (187.5, 255, 25, 50, 0, PI); //tongue
 }
 ````
+here was the result! It doesnt look like much has changed, but I disagree. This P5 drawing sits a lot better.
 
-the code above is accurate ion scale to my sketch, where each grid block = 25 units, and the entire canvas is 400 units total. I mapped out all the points on graph paper.
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase2.2.png)
+
+the code above is accurate in scale to my sketch, where each grid block = 25 units, and the entire canvas is 400 units total. I mapped out all the points on graph paper.
+
+![alt text]()
 
 ---
 ### Phase 2.3
