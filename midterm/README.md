@@ -148,6 +148,9 @@ function draw() //gonna draw monkey
 
 I was getting there but then I realised I wanted to add some changes so my guy would look more like a monkey than a discarded pokemon
 
+---
+### Phase 2.4
+
 I wanted to get the fur mojo jojo has, and also the monkey area around the mouth that doestn typically have any fur. For this I devided the head in 2 rectangles, one that would be purely green (around the eyes), and one that would be black or dark brown (around the mouth). 
 
 There would also be a green ellipses around the mouth and above the fur in order to be in agreeance with all monkey traditions. 
@@ -203,3 +206,8 @@ function draw() //gonna draw biblically accurate Mojo Jojo
 }
 ````
 ![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase2.4.png)
+
+---
+### Phase 3
+
+Finally! I have arrived at phase 3.
