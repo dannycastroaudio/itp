@@ -12,7 +12,6 @@ function setup()
   createCanvas(400, 400);
   noStroke();
 }
-
 function draw() //gonna draw monkey
 {
   fill(0);
@@ -36,5 +35,128 @@ function draw() //gonna draw monkey
   fill (130);
   arc (82, 102, 10, 25, 0, PI);
 }
+````
 
+im gonna try to be more accurate to my sketch now
+
+````
+function setup() 
+{
+  createCanvas(400, 400);
+  noStroke();
+}
+function draw() //gonna draw monkey
+{
+  fill(0);
+  arc (100, 175, 100, 100, PI/2, PI*1.5); // left ear
+  fill (200);
+  rect (100, 125, 125, 200); //face
+  fill (200);
+  arc (162.5, 125 , 125, 125, PI, 2*PI); //top of head
+  fill (0);
+  arc (225, 175, 100, 100, PI*1.5, PI/2); //right ear
+  fill (0)
+  triangle (100, 200, 125, 150, 150, 200); //left eye
+  fill (0);
+  triangle (175, 200, 200, 150, 225, 200); //right eye
+  fill (255);
+  ellipse (125, 185,10);//left pupil
+  fill (255);
+  ellipse (200, 185, 10);//right pupil
+  fill (0); 
+  rect (125, 250, 75, 5);//mouth
+  fill (130);
+  arc (187.5, 255, 25, 50, 0, PI); //tongue
+}
+````
+
+the code above is accurate ion scale to my sketch, where each grid block = 25 units, and the entire canvas is 400 units total. I mapped out all the points on graph paper.
+
+
+
+Now I wanna dd color!!!
+I thought that a traditional monkey colour scheme wouldnt work as well with this format, so I decided to colour my monkey as Mojo Jojo from the Powerpuff Girls
+
+i quickyly looked up how to use colour in P5.js, which led me to this [website](https://p5js.org/reference/p5/color/)
+
+ok. I'll just use RGB values. So I looked up a [RGB value chart with a colour picker](https://www.rapidtables.com/web/color/RGB_Color.html) and I went to town on my Mojo Jojo
+
+````
+function setup() 
+{
+  createCanvas(400, 400);
+  noStroke();
+}
+function draw() //gonna draw monkey
+{
+  fill(0);
+  arc (100, 175, 100, 100, PI/2, PI*1.5); // left ear
+  fill (128, 255, 0);
+  rect (100, 125, 125, 200); //face
+  fill (255, 51, 255);
+  arc (162.5, 125 , 125, 150, PI, 2*PI); //top of head
+  fill (0);
+  arc (225, 175, 100, 100, PI*1.5, PI/2); //right ear
+  fill (240, 198, 202);
+  triangle (100, 200, 125, 150, 150, 200); //left eye
+  fill (240, 198, 202);
+  triangle (175, 200, 200, 150, 225, 200); //right eye
+  fill (0);
+  ellipse (125, 185,10);//left pupil
+  fill (0);
+  ellipse (200, 185, 10);//right pupil
+  fill (0); 
+  rect (125, 250, 75, 5);//mouth
+  fill (255, 102, 255);
+  arc (187.5, 255, 25, 50, 0, PI); //tongue
+}
+````
+
+I was getting there but then I realised I wanted to add some changes so my guy would look more like a monkey than a discarded pokemon
+I wanted to get the fur mojo jojo has, and also the monkey area around the mouth that doestn typically have any fur. For this I devided the head in 2 rectangles, one that would be purely green (around the eyes), and one that would be black or dark brown (around the mouth). There would also be a green ellipses around the mouth and above the fur in order to be in agreeance with all monkey traditions. 
+So I reworked my initial sketch, accounting for the Eu de Mojo Jojo, his essence, his life energy, even. In addition to fur on the lower face, I added fur at the edges of his ears, and in a section above his eyes. I also made the top of his head a teeny tiny bit taller to account for his magnificent brain, and adjusted the shape of his eyes to look a little angrier (2 right triangles instead of equilateral triangles). I also coloured him in accordance with the ancient texts of the Powerpuff Girls.
+
+````
+function setup() 
+{
+  createCanvas(400, 400);
+  noStroke();
+}
+function draw() //gonna draw biblically accurate Mojo Jojo
+{
+  fill(0);
+  arc (100, 175, 100, 100, PI/2, PI*1.5); //outer left ear
+  fill(128, 255, 0);
+  arc (100, 175, 80, 80, PI/2, PI*1.5);// left ear
+  fill(0);
+  arc (225, 175, 100, 100, PI*1.5, PI/2); //outer right ear
+  fill (128, 255, 0);
+  arc (225, 175, 80, 80, PI*1.5, PI/2); //right ear
+  fill (128, 255, 0);
+  rect (100, 125, 125, 100); //upper face
+  fill (0);
+  rect (100, 225, 125, 100); //lower face with fur
+  fill (255, 51, 255);
+  arc (162.5, 125, 125, 175, PI, 2*PI); //top of head
+  fill (240, 198, 202);
+  triangle (110, 200, 110, 150, 155, 200); //left eye
+  fill (240, 198, 202);
+  triangle (170, 200, 215, 150, 215, 200); //right eye
+  fill (0);
+  ellipse (125, 185,10);//left pupil
+  fill (0);
+  ellipse (200, 185, 10);//right pupil
+  fill (128, 255, 0);
+  ellipse (162.5, 262.5, 125, 75);//area under mouth with no fur
+  fill (0); 
+  rect (125, 250, 75, 5);//mouth
+  fill (255, 102, 255);
+  arc (187.5, 255, 25, 50, 0, PI); //tongue
+  fill (0);
+  rect (100, 125, 10, 100);//left sideburn
+  fill (0)
+  rect (215, 125, 10, 100);//right sideburn
+  fill (0);
+  triangle (125, 125, 162.5, 175, 200, 125); //forehear fur patch
+}
 ````
