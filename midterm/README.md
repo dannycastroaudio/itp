@@ -57,6 +57,8 @@ this is how my test sketch turns out:
 
 At this point I had read all of the instructions, so I made sure to adjust my sketch to be scalable to a 400x400 canvas, and actually follow set x and y coordinates. Basically a 16x16 where each unit = 25 units if scaled. I thought that was the easiest way.
 
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase1.2.jpg)
+
 You can see how much sense it makes now. Adjusting dimensions/making changes will be generally easier cause now I follow precise numbers.
 
 ![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase2.2.png)
