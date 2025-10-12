@@ -17,7 +17,7 @@ THEN I TRY TO MAKE MONKEY ON CONSOLE.
 cant firgure out arc orientation. I look up youtube how. link to video. explains how orientation is mapped out in p5
 now that i figure it out, i add ears  and top of head, as well as face. i have to test the location of my points and make sure I actually understand how to do it. I wasnt really using a scale here, just testing if it felt right. 
 
-````
+````javascript
 function setup() 
 {
   createCanvas(400, 400);
@@ -47,6 +47,7 @@ function draw() //gonna draw monkey
   arc (82, 102, 10, 25, 0, PI);
 }
 ````
+
 this is how my test sketch turns out:
 
 ![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase2.1.png)
@@ -66,7 +67,7 @@ You can see how much sense it makes now. Adjusting dimensions/making changes wil
 
 Now, im gonna try to be more accurate on P5.js to my new sketch 
 
-````
+````javascript
 function setup() 
 {
   createCanvas(400, 400);
@@ -96,6 +97,7 @@ function draw() //gonna draw monkey
   arc (187.5, 255, 25, 50, 0, PI); //tongue
 }
 ````
+
 here was the result! It doesnt look like much has changed, but I disagree. This P5 drawing sits a lot better.
 
 ![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase2.2.png)
@@ -108,13 +110,14 @@ the code above is accurate in scale to my sketch, where each grid block = 25 uni
 ### Phase 2.3
 
 Now I wanna add color!!!
+
 I thought that a traditional monkey colour scheme wouldnt work as well with this format, so I decided to colour my monkey as Mojo Jojo from the Powerpuff Girls
 
 i quickyly looked up how to use colour in P5.js, which led me to this [website](https://p5js.org/reference/p5/color/)
 
 ok. I'll just use RGB values. So I looked up a [RGB value chart with a colour picker](https://www.rapidtables.com/web/color/RGB_Color.html) and I went to town on my Mojo Jojo
 
-````
+````javascript
 function setup() 
 {
   createCanvas(400, 400);
@@ -144,6 +147,7 @@ function draw() //gonna draw monkey
   arc (187.5, 255, 25, 50, 0, PI); //tongue
 }
 ````
+
 ![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase2.3.png)
 
 I was getting there but then I realised I wanted to add some changes so my guy would look more like a monkey than a discarded pokemon
@@ -161,7 +165,7 @@ I also made the top of his head a teeny tiny bit taller to account for his magni
 
 Finally, I coloured him in accordance with the ancient texts of the Powerpuff Girls.
 
-````
+````javascript
 function setup() 
 {
   createCanvas(400, 400);
@@ -202,12 +206,72 @@ function draw() //gonna draw biblically accurate Mojo Jojo
   fill (0)
   rect (215, 125, 10, 100);//right sideburn
   fill (0);
-  triangle (125, 125, 162.5, 175, 200, 125); //forehear fur patch
+  triangle (125, 125, 162.5, 175, 200, 125); //forehead fur patch
 }
 ````
+
 ![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase2.4.png)
 
 ---
 ### Phase 3
 
-Finally! I have arrived at phase 3.
+Finally! I have arrived at phase 3. First thing I do is re-read the instructions for this phase, look at the example given, and give it a try.
+
+````javascript
+function setup() 
+{
+  createCanvas(2000,2000);//made canvas bigger so I can fit several Mojo Jojos 
+  noStroke();
+}
+function drawObject(x, y, s)//this functions "saves" the base dimensions/blueprint of my Mojo Jojo so it can later be transformed and/or moved around. Like, a Franz Kafka function that helps me decide the size of the cockroach and where it should appear, but it'll always be a cockroach.
+{
+  push ();
+  translate (x, y);//where in the canvas should this be drawn 
+  scale (s);//change size og my Mojo
+  fill(0);//black
+  arc (100, 175, 100, 100, PI/2, PI*1.5); //outer left ear
+  fill(128, 255, 0);
+  arc (100, 175, 80, 80, PI/2, PI*1.5);// left ear
+  fill(0);//black
+  arc (225, 175, 100, 100, PI*1.5, PI/2); //outer right ear
+  fill (128, 255, 0);//Mojo Jojo green
+  arc (225, 175, 80, 80, PI*1.5, PI/2); //right ear
+  fill (128, 255, 0);//Mojo Jojo green
+  rect (100, 125, 125, 100); //upper face
+  fill (0);//black
+  rect (100, 225, 125, 100); //lower face with fur
+  fill (255, 51, 255);//a beautiful shade of brain pink
+  arc (162.5, 125 , 125, 175, PI, 2*PI); //top of head
+  fill (240, 198, 202);//light red bc he is so tired 
+  triangle (110, 200, 110, 150, 155, 200); //left eye
+  fill (240, 198, 202);//again some light red but he might also be a lil high
+  triangle (170, 200, 215, 150, 215, 200); //right eye
+  fill (0);//black
+  ellipse (125, 185,10);//left pupil
+  fill (0);//black
+  ellipse (200, 185, 10);//right pupil
+  fill (128, 255, 0);//Mojo Jojo green
+  ellipse (162.5, 262.5, 125, 75);//area under mouth with no fur
+  fill (0); //black
+  rect (125, 250, 75, 5);//mouth
+  fill (255, 102, 255);//a different shade of pink as the brain
+  arc (187.5, 255, 25, 50, 0, PI); //tongue 
+  fill (0);// black
+  rect (100, 125,10, 100);//left sideburn
+  fill (0)//black
+  rect (215, 125,10, 100);//right sideburn
+  fill (0);//black
+  triangle (125, 125, 162.5, 175, 200, 125);//forehead fur patch
+  pop ();
+}
+function draw()//here is where you actually scale. This functions calls on drawObject for the Mojo Jojo blueprints, takes those base values, and lets us move and scale him.
+{
+  drawObject (0, 0, 1);
+  drawObject (0, 200, 2);
+}
+````
+If I'm being honest, that was quite easy. The instructions were clear, and I understood the purpose of using the original blueprint as a reference for a new function that was able to take all the original instructions and scale and transform them. Simple. It also worked on the first try, which gave me joy I had yet to experience.
+
+Here is how my Mojo Jojos were transformed!
+
+![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase3.png)
