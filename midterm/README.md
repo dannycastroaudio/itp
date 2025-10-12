@@ -1,8 +1,8 @@
-#Midterm Project
-##Danny Castro, LMSC-261-001
+# Midterm Project
+## Danny Castro, LMSC-261-001
 
 ---
-###Phase 1.1
+### Phase 1.1
 
 OK SO FIRST I DRAW (INSERT SKETCH HERE)
 I used a graph paper on my iPad and drew the image of a monkey-looking thing. my weird monkey.
