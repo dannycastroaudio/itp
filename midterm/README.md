@@ -121,7 +121,7 @@ Now I wanna add color!!!
 
 I thought that a traditional monkey colour scheme wouldnt work as well with this format, so I decided to colour my monkey as Mojo Jojo from the Powerpuff Girls
 
-i quickyly looked up how to use colour in P5.js, which led me to this [website](https://p5js.org/reference/p5/color/)
+I quickly looked up how to use colour in P5.js, which led me to this [website](https://p5js.org/reference/p5/color/)
 
 ok. I'll just use RGB values. So I looked up a [RGB value chart with a colour picker](https://www.rapidtables.com/web/color/RGB_Color.html) and I went to town on my Mojo Jojo
 
@@ -291,9 +291,9 @@ Here is how my Mojo Jojos were transformed!
 ---
 ### Phase 4
 
-Ok, I am starting phase 4 and dont really know how to do it. I'll re-read the instructions.
+Ok, I am starting phase 4 and dont really know how to do it. I'll re-read the instructions. I also went back to the [code-along we did in our functions class](https://github.com/rdwrome/261fa25/blob/main/05Functions/codealong.js) just to refresh my memory, and the [code-along from our control flow class](https://github.com/rdwrome/261fa25/blob/main/04ControlFlow/codealong.js) because I remembered we had worked with rows and columns using nested `for` loops. I kept referencing both of these code-alongs when building my nested `for` loops.
 
-Ok, I see now i have to make a grid. First step was figuring it out mojo Jojo's original size. I looked at my graph, and by measureing the total height and total widtt (as well as the sizes I put down on my code), I determined original Mojo Jojo is 225px wide and 287.5px tall. That would make the grid much too big for the 2000x2000 canvas, I could only fit like 7 Mojo Jojos in it. Not enough for my personal taste. So I decided to halve the size with the `s` parameter in the `drawObject` function. 
+Ok, I see now i have to make a grid. First step was figuring it out mojo Jojo's original size. I looked at my graph, and by measureing the total height and total width (as well as the sizes I put down on my code), I determined original Mojo Jojo is 225px wide and 287.5px tall. That would make the grid much too big for the 2000x2000 canvas, I could only fit like 7 Mojo Jojos in it. Not enough for my personal taste. So I decided to halve the size with the `s` parameter in the `drawObject` function. 
 
 That would make my Mojo Jojo 112.5px wide and 143.75px tall. That fits at LEAST 17.77 Mojos in the x axis and 13.91 mojos in the y axis. Those numbers are much more satisfactory than the previous Mojo predictions. 
 
@@ -634,6 +634,6 @@ function draw()//here is where you actually scale. This functions calls on drawO
 
 This final iteration was completely succesful, it met all of the requirements and worked as expected. The window was never resized, the Mojo Jojos scaled in size depending on the number of grids. 
 
-My midterm project was finally complete. Here is photo evidence my tiling Mojo Jojos!
+My midterm project was finally complete. Here is photo evidence my tiling Mojo Jojos! **YIPPPEEEEEEE**
 
 ![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase4.jpg)
