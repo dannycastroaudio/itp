@@ -628,4 +628,6 @@ function draw()//here is where you actually scale. This functions calls on drawO
 
 This final iteration was completely succesful, it met all of the requirements and worked as expected. The window was never resized, the Mojo Jojos scaled in size depending on the number of grids. 
 
-My midterm project was finally complete.
+My midterm project was finally complete. Here is photo evidence my tiling Mojo Jojos!
+
+[!alttext](paste link)
