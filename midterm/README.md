@@ -630,4 +630,4 @@ This final iteration was completely succesful, it met all of the requirements an
 
 My midterm project was finally complete. Here is photo evidence my tiling Mojo Jojos!
 
-![alt text](https://github.com/dannycastroaudio/itp/blob/main/midterm/Phase4.jpg)
+![alt text]()
