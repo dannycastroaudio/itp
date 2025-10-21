@@ -15,8 +15,11 @@ THEN I TRY TO MAKE MONKEY ON CONSOLE.
 ---
 ### Phase 2.1
 
-I couldnt figure out arc orientation, so I looked up youtube how, and [this video](https://www.youtube.com/watch?v=IWLpIJMVRtg) explained how orientation is mapped out in p5
-Now that I figured it out, I added ears and top of head, as well as face. I had to test the location of my points and make sure I actually understand how to do it. I wasnt really using a scale here, just testing if it felt right.
+I couldnt figure out arc orientation, so I looked up youtube how, and [this video](https://www.youtube.com/watch?v=IWLpIJMVRtg) explained how orientation is mapped out in p5.
+
+Now that I figured it out, I added ears and top of head, as well as face. I had to test the location of my points and make sure I actually understand how to do it. 
+
+I wasnt really using a scale here, just testing if it felt right.
 
 I also made sure to reference the P5.js website [documentation on primitive shapes](https://p5js.org/examples/shapes-and-color-shape-primitives/), specifically [arcs](https://p5js.org/reference/p5/arc/), [triangles](https://p5js.org/reference/p5/triangle/), [rectangle](https://p5js.org/reference/p5/rect/), and [ellipses](https://p5js.org/reference/p5/ellipse/). After reading through these, I knew I wasnt going in blind.
 
