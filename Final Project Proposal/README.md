@@ -54,6 +54,18 @@ This project is completely unrelated to other classes. I would say instead that 
  - Instead of an existing font, it used a self-created font! That way it looks like i wrote it
  - Contains a silly self portrait of myself in the about section
  - The whole website, other than being very informative and easy to navigate, has a cohesive aesthetic that makes me and my work more attractive for potential customers/hiring teams
+ 
+ ---
+ 
+## Steps to complete this project (with dates) 
+
+**Complete the following steps by the indicated dates**
+
+1. 11 Nov 2025: Master basic HTML using the sources linked in this file 
+2. 18 Nov 2025: Make basic website (probably just a landing page), meeting the requirements of "Good Outcome". Once website is complete, begin making drawings and assets for the "better outcome" version of the project. 
+3. 25 Nov 2025: Make the "better outcome" website, make sure it contains at least different tabs, has some visuals, and uses a different font.
+4. 2 Dec 2025: Research how to add moving pictures to HTML websites! Continue drawing more assets for other tabs that aren't the landing page. Make some sounds that will go with the website when you click on things. Research how to emit sounds in HTML when you click on objects. Make sure the website if fully functional as it is.
+5. 9 Dec 2025: Final polishes, add all the assets, make sure the website aesthetic is cohesive, test all functionality, ask some friends to review it. 
 
  
  
