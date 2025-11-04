@@ -1,4 +1,6 @@
 # Interactive Portfoio Website
+### Danny Castro
+### LMSC-261-001
 
 For my final project, I will use HTML5 to create my own portfolio website with fun and intertactive features that show my personality as a sound designer and audio professional.
 
