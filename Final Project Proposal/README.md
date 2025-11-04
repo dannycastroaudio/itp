@@ -15,6 +15,14 @@ As for how in the world I'm going to do this by learning essentialyl from scratc
  
  ---
  
+## Reference websites
+
+- [A Shell In The Pit](https://ashellinthepit.com/)
+- [Kelsey Knight's Thesis website](https://www.kelyes.art/thesis)
+- [Resident Cryptid's portfolio](https://www.residentcryptidmusic.com/)
+
+ ---
+ 
 I will be creating an interactive, very cute looking website to serve as my artist website! On it, I will have my portfolio, game credits, and other fun information people might want to knlow (like how to contact me). I would also love include links to all the games ive had the pleasure of working on/games im currently working on.
  
 For a while I've been meaning to code my own website, I just have not been able to find the time due to my 2 jobs and soul-crushing workload. I know a little HTML, very basic, but I knew that I would have to take a course and something similar to actually do it. This class is giving me the excuse I needed to create my own website byu actually forcing me to do it in exchange of academic appraisal! yay! 
