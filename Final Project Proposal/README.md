@@ -1,4 +1,4 @@
-# Interactive Portfoio Website
+# Final Project: Interactive Portfolio Website
 ### Danny Castro
 ### LMSC-261-001
 
