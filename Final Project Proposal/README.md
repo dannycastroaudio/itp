@@ -20,6 +20,7 @@ As for how in the world I'm going to do this by learning essentialyl from scratc
 - [A Shell In The Pit](https://ashellinthepit.com/)
 - [Kelsey Knight's Thesis website](https://www.kelyes.art/thesis)
 - [Resident Cryptid's portfolio](https://www.residentcryptidmusic.com/)
+- [Unplugred's Website](https://vst.unplug.red/)
 
  ---
  
