@@ -28,7 +28,7 @@ I knew what a boolean expression is, and also what a modulus operator is too. I 
 
 **What I didnt know:**
 
-Recusrsion is still pretty bizzar, though I now undertstand thats its only calling other functions. I also didnt know to make diagrams for recursive buttons
+Recursion is still pretty bizarre, though I now understand thats its only calling other functions. I also didnt know to make diagrams for recursive functions
 
 ### Chapter 10: Lists
 
@@ -38,4 +38,4 @@ I know what a list is, ive used them before. I know that they work like strings 
 
 **What I didnt know:**
 
-I was clueless and did not think it was possible organise and append so many filters inside of a list
+I was clueless and did not think it was possible organise and append so many elements inside of a list
