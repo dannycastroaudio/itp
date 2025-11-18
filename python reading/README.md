@@ -30,7 +30,7 @@ I knew what a boolean expression is, and also what a modulus operator is too. I 
 
 Recusrsion is still pretty bizzar, though I now undertstand thats its only calling other functions. I also didnt know to make diagrams for recursive buttons
 
-###Chapter 10: Lists
+### Chapter 10: Lists
 
 **What I already knew:**
 
